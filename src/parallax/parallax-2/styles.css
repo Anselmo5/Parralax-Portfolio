@@ -41,6 +41,12 @@ img {
   border-radius: 200px;
 }
 
+.indice a:hover{
+  color: rgba(22, 199, 199, 0.89);
+  transform: translateY(-3px);
+  transition: all 0.3s;
+}
+
 .banner h2,
 .footer h2 {
   margin: 20px 0;
@@ -95,7 +101,7 @@ p {
   flex-direction: row;
   text-align: left;
   gap: 30px;
-  background: url("_\ \(3\).jpeg");
+  background: url("./_\ \(3\).jpeg");
   background-size: cover;
   background-position: center;
   color: #f7f7f7;
@@ -113,6 +119,10 @@ p {
   justify-content: center;
   background: linear-gradient(rgb(57 53 86 / 0%), rgb(57 53 86 / 100%) 90%);
 }
+.banner-content button{
+  width: 30px;
+  height: 200px;
+}
 
 .banner h2 {
   font-size: 40px;
@@ -123,8 +133,9 @@ p {
   opacity: 0.7;
 }
 
-.footer {
-  background: #ffffff;
+.footer img{
+  width: 500px;
+  height: 300px;
 }
 
 .panel {
@@ -146,13 +157,13 @@ form {
 
 input,
 textarea,
-button {
+button{
   font-family: inherit;
   border-radius: 6px;
   border: 0;
   background: #f1f0f7;
-  padding: 16px;
-  width: 340px;
+  padding: 6px;
+  width: 200px;
   font-size: 16px;
 }
 
@@ -168,3 +179,45 @@ button {
   width: 300px;
     
 }
+
+.aling img{
+border-radius: 300px;
+}
+
+.midia2 img{
+  margin-top: -80px;
+  width: 500px;
+}
+
+.midia2 img:hover{
+  transition: transform 1s;
+  transform: translateY(-10px);
+
+}
+
+.midias img{
+  height: 100px;
+  width: 50px;
+  padding: 5px;
+}
+
+.midias img:hover{
+  transition: transform 1s;
+  transform: translateY(-10px);
+
+}
+
+.theme-ligth{
+  background: #cdcfcf;
+}
+
+.theme-blue{
+background: #222222;
+}
+
+.btn button{
+  width: 100px;
+  height: 200px;
+}
+
+

@@ -30,15 +30,35 @@ export const Parallax = () => {
       },
     });
   }, []);
+  
+function set(){
+    document.body.className = localStorage.getItem('theme');
+}
+function setTheme(){    
+    let a = localStorage.getItem('theme');
+
+    if(a){
+        if(a === "theme-light"){
+            localStorage.setItem('theme', 'theme-blue','theme-ligth');
+        } else {
+            localStorage.setItem('theme', 'theme-light','theme-blue');
+        }
+        set();
+    } else {
+        localStorage.setItem('theme', 'theme-light','theme-blue');
+        set();
+    }
+}
 
   return (
     <>
-      <nav>
+      <nav className="indice">
         <img src={logo} className="Mylogo"/>
-        <Link to="/"> Home </Link>
+        <a href="#"> Home </a>
         <a id="Skill_id" href="#"> Skills </a>
         <a href="#"> Contact </a>   
-        <Link to="/materiais"> materiais </Link>
+        <a href="#"> Materias </a>
+        <button id="ALTERE" onClick={setTheme()}>Altere</button>
       </nav>
       <section className="banner">
         <div className="banner-content">
@@ -84,17 +104,35 @@ export const Parallax = () => {
           </p>
         </section>
       </div>
-      <section className="footer">
-        <h2>Contact</h2>
-        <form>
-          <input type="text" placeholder="Your email" />
+        <section className="contatos">
+          <div className="aling">
+            <img src={logo} alt="" />
+          </div>
 
-          <textarea rows={6} placeholder="Message" />
-          <button>SUBMIT</button>
-        </form>
-      </section>
+          <div className="midias">
+          <p align="center">
+              <a href="https://github.com/Anselmo5">
+                <img src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png" />
+                </a>
+                <a href="https://www.instagram.com/anselmo_henrique02/?next=%2F">
+                <img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM" />
+                </a>
+                <a href="https://www.linkedin.com/in/anselmo-henrique-266647233/">
+                <img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" />
+                </a>
+        
+          </p>
+          </div>
 
-    
+          <div className="midia2">
+          <p align="center">
+              <a href="https://skillicons.dev">
+              <img src="https://skillicons.dev/icons?i=git,linux,github,linkedin,react,html,css,javascript,typescript" />
+            </a>
+          </p>
+          </div>
+        </section>
+
     </>
   );
 };
