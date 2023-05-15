@@ -4,14 +4,14 @@ import html from "./html.png";
 import css from "./css.png";
 import javascript from "./javascript.png";
 import react from "./react.png";
-import segundapagina from '../Parrallaxsegundapagina/Materias'
+import Parallax from "../parallax-2/Parallax";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 import logo from "./Mylogo.jpeg";
 import { useEffect, useRef } from "react";
 
-export const Parallax = () => {
+export const Materias = () => {
   const containerRef = useRef();
 
   useEffect(() => {
@@ -34,14 +34,13 @@ export const Parallax = () => {
     <>
       <nav>
         <img src={logo} className="Mylogo"/>
-        <a href="#"> Home </a>
-        <a id="Skill_id" href="#"> Skills </a>
+        <a href="{Parallax}"> Home </a>
+        <a  id="Skill_id" href="#"> Skills </a>
         <a href="#"> Contact </a>
-        <a href="{segundapagina}">Materias</a>
       </nav>
       <section className="banner">
         <div className="banner-content">
-          <h2>Olá Devs</h2>
+          <h2>Materias</h2>
           <h3>Bém vindos ao Meu Portfolio</h3>
         </div>
       </section>
@@ -98,4 +97,4 @@ export const Parallax = () => {
   );
 };
 
-export default Parallax
+export default Materias
