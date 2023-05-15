@@ -10,6 +10,7 @@ import { ScrollTrigger } from "gsap/all";
 
 import logo from "./Mylogo.jpeg";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 export const Parallax = () => {
   const containerRef = useRef();
@@ -34,10 +35,10 @@ export const Parallax = () => {
     <>
       <nav>
         <img src={logo} className="Mylogo"/>
-        <a href="#"> Home </a>
+        <Link to="/"> Home </Link>
         <a id="Skill_id" href="#"> Skills </a>
-        <a href="#"> Contact </a>
-        <a href="{segundapagina}">Materias</a>
+        <a href="#"> Contact </a>   
+        <Link to="/materiais"> materiais </Link>
       </nav>
       <section className="banner">
         <div className="banner-content">
