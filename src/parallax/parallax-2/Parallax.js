@@ -7,9 +7,8 @@ import react from "./react.png";
 import segundapagina from '../Parrallaxsegundapagina/Materias'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-
 import logo from "./Mylogo.jpeg";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef} from "react";
 import { Link } from "react-router-dom";
 
 export const Parallax = () => {
@@ -30,25 +29,6 @@ export const Parallax = () => {
       },
     });
   }, []);
-  
-function set(){
-    document.body.className = localStorage.getItem('theme');
-}
-function setTheme(){    
-    let a = localStorage.getItem('theme');
-
-    if(a){
-        if(a === "theme-light"){
-            localStorage.setItem('theme', 'theme-blue','theme-ligth');
-        } else {
-            localStorage.setItem('theme', 'theme-light','theme-blue');
-        }
-        set();
-    } else {
-        localStorage.setItem('theme', 'theme-light','theme-blue');
-        set();
-    }
-}
 
   return (
     <>
@@ -58,7 +38,6 @@ function setTheme(){
         <a id="Skill_id" href="#"> Skills </a>
         <a href="#"> Contact </a>   
         <a href="#"> Materias </a>
-        <button id="ALTERE" onClick={setTheme()}>Altere</button>
       </nav>
       <section className="banner">
         <div className="banner-content">

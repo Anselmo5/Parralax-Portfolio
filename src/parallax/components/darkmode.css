@@ -1,0 +1,12 @@
+.dark{
+    background: #020202;
+}
+
+.btn button{
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
+    background: rgb(30, 179, 179);
+    color: #fff;
+    text-align: center;
+}
