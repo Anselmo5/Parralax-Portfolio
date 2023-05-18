@@ -176,3 +176,23 @@ p {
   width: 100%;
   height: 100%;
   }
+
+  .NA img{
+    background: url(../img/prova-ciencias-da-natureza-enem.jpg);
+  }
+
+  .HU img{
+    background: url(../img/ciencias-humanas-e-suas-tecnologias-og.webp);
+  }
+
+  .MA img{
+    background: url(../img/YOUTZ-MATEMATICA-ENEM.jpg);
+  }
+  
+  .LI img{
+    background: url(../img/07092708_9064_GDO.png);
+  }
+
+  .TC img{
+    background: url(../img/download.png);
+  }
