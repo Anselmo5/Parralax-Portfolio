@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: visible;
+  position: relative;
+  font-family: "Euclid Circular A", "Poppins";
+  color: #222222;
+  text-align: center;
+}
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 200%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #f7f7f7;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.banner h2,
+.footer h2 {
+  margin: 20px 0;
+  font-family: 'Lora', serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 16px;
+  background: #fff;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+  font-size: 14px;
+  transition: all 0.8s;
+}
+
+nav a:hover {
+  
+  color: rgba(22, 199, 199, 0.89);
+  transition: transform 1s;
+  transform: translateY(-10px);
+}
+
+
+nav img {
+  width: 32px;
+  height: 32px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 80px;
+}
+
+h2 {
+  margin: 50px 0 20px;
+  font-family: 'Lora', serif;
+}
+
+p {
+  opacity: 0.66;
+  font-size: 16px;
+  font-family: 'Lora', serif;
+}
+
+.banner {
+  flex-direction: row;
+  text-align: left;
+  gap: 30px;
+  background: #ccb7ff;
+}
+
+.footer {
+  background: #ffffff;
+}
+
+.panel {
+  
+}
+
+.container .panel:nth-child(odd) {
+  background: #fff;
+}
+
+.active{
+  color: rgba(22, 199, 199, 0.89);
+}
+
+
+.aling img{
+  border-radius: 300px;
+  }
+  
+  .midia2 img{
+    margin-top: -80px;
+    width: 50px;
+  }
+
+  .midia2 a{
+    text-decoration: none;
+  }
+  
+  .midia2 img:hover{
+    transition: transform 1s;
+    transform: translateY(-10px);
+  
+  }
+  
+  .midias a{
+    text-decoration: none;
+  }
+
+  .midias img{
+    height: 100px;
+    width: 50px;
+    padding: 5px;
+  }
+  
+  .midias img:hover{
+    transition: transform 1s;
+    transform: translateY(-10px);
+  
+  }
+
+  .aling-bds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .formgit img{
+    border-radius: 200px;
+  }
