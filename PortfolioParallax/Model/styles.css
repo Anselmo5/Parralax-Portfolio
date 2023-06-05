@@ -235,6 +235,7 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image:cover ;
   }
   .btn{
     padding: 5px;
