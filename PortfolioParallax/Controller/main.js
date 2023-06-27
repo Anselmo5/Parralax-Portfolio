@@ -4,7 +4,7 @@ const sections = gsap.utils.toArray(".panel"),
   container = document.querySelector(".container");
 
 gsap.to(sections, {
-  xPercent: -59* (sections.length - 1),
+  xPercent: -60* (sections.length - 1),
   ease: "none",
   scrollTrigger: {
     trigger: ".container",
