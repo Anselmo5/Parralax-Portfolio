@@ -122,6 +122,13 @@ p {
 
 .active{
   color: rgba(22, 199, 199, 0.89);
+  text-decoration: none;
+}
+
+.active-tec a:hover{
+  color: rgba(48, 53, 53, 0.89);
+  transition: transform 1s;
+  transform: translateY(-10px);
 }
 
 
@@ -238,6 +245,7 @@ p {
     background-repeat: no-repeat;
     background-image:cover ;
   }
+
   .btn{
     padding: 5px;
     width: 100px;
