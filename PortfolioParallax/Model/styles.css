@@ -317,6 +317,24 @@ p {
     margin-bottom: 20px;
   }
   
+
+  .btn a{
+    text-decoration: none;
+    color: #222222;
+  }
+
+  .btn a:hover{
+    color: none;
+    padding: 5px;
+
+  }
+
+  .btn:hover{
+    background:none;
+    color:none;
+    padding:none;
+    box-shadow: none;
+  }
 }
 
 @media screen and (max-width: 632px) {
