@@ -33,9 +33,7 @@ body {
 img {
   width: 200px;
   height: 200px;
-  object-fit: contain;
-  border-radius: 5px;
-  
+  object-fit: contain; 
 }
 
 img:hover{
@@ -103,6 +101,8 @@ p {
   font-size: 16px;
   font-family: 'Lora', serif;
 }
+
+
 
 .banner {
   flex-direction: row;
@@ -275,3 +275,57 @@ p {
     padding: 5px;
     box-shadow: 0px 2px 0px #7a7676;
   }
+
+
+.ajust{
+  margin-bottom: 300px;
+}
+
+.ajust img{
+  width: 400px;
+  height: 350px;
+}
+
+.ajust-imagem img{
+  border-radius: 100px;
+  margin-top: 100px;
+}
+
+.ajust-nav img{
+  border-radius:100px;
+ 
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 729px) {
+  p{
+    font-size: 12px;
+  }
+  .midia2 img:hover{
+    transition: none;
+    transform: none;
+  }
+
+  .midias img:hover{
+    transition: none;
+    transform: none;
+  }
+
+  img:hover{
+    transition: none;
+    transform: none;
+  }
+  .ajust{
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 632px) {
+  a{
+    font-size: 12px ;
+  }
+
+
+}
