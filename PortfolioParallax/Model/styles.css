@@ -27,7 +27,7 @@ body {
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
-  background: #f7f7f7;
+  background:#dfdfdf;
 }
 
 img {
@@ -63,7 +63,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
   margin-left: 20px;
   font-size: 14px;
   transition: all 0.8s;
@@ -72,7 +72,7 @@ nav a {
 
 nav a:hover {
   
-  color: #fff;
+  color:#ff0623;
   transition: transform 1s;
   transform: translateY(-10px);
 
@@ -123,21 +123,20 @@ p {
 }
 
 .footer {
-  background: #ffffff;
+ background:#00111A ;
 }
 
 
 .container .panel:nth-child(odd) {
-  background: #fff;
+  background:#ffffff;
 }
 
 .active{
-  color: #fff;
+  color:#ff0623;
   text-decoration: none;
 }
 
 .active-tec a:hover{
-  color: rgba(48, 53, 53, 0.89);
   transition: transform 1s;
   transform: translateY(-10px);
 }
@@ -310,6 +309,10 @@ p {
 .ajust img{
   width: 400px;
   height: 350px;
+}
+
+.ajust p{
+  color: #222222;
 }
 
 .ajust-imagem img{

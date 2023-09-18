@@ -56,13 +56,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 24px 0 16px;
-  background: rgb(255, 255, 255);
+  background: #0D1D25;
   box-shadow: 0 0 20px rgb(0 0 0 / 8%);
 }
 
 nav a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
   margin-left: 20px;
   font-size: 14px;
   transition: all 0.8s;
@@ -70,7 +70,7 @@ nav a {
 
 nav a:hover {
   
-  color: rgba(22, 199, 199, 0.89);
+  color:#ff0623;
   transition: transform 1s;
   transform: translateY(-10px);
 }
@@ -108,7 +108,7 @@ p {
   flex-direction: row;
   text-align: left;
   gap: 30px;
-  background:#b3b3b3;
+  background:#ffffff;
 }
 
 .footer {
@@ -118,17 +118,6 @@ p {
 
 .container .panel:nth-child(odd) {
   background: #fff;
-}
-
-.active{
-  color: rgba(22, 199, 199, 0.89);
-  text-decoration: none;
-}
-
-.active-tec a:hover{
-  color: rgba(48, 53, 53, 0.89);
-  transition: transform 1s;
-  transform: translateY(-10px);
 }
 
 
