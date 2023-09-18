@@ -1,0 +1,17 @@
+gsap.registerPlugin(ScrollTrigger);
+
+const sections = gsap.utils.toArray(".panel"),
+  container = document.querySelector(".container");
+
+gsap.to(sections, {
+  xPercent: -60* (sections.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".container",
+    pin: true,
+    scrub: 1,
+    snap: 1 / (sections.length - 1),
+    end: () => "+=" + container.offsetWidth,
+  },
+});
+
