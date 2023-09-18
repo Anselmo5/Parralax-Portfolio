@@ -18,9 +18,7 @@ ul{
     list-style: none;
 }
 
-img{
-    max-width: 100%;
-}
+
 /*style*/
 html{
     font-size:62.5%;
@@ -52,55 +50,41 @@ body{
     position:absolute;
     top:50%;
     transform:translate(-50%,-50%);
+    margin-right:390px;
+    
 }
+
+
+
 .carrosel img:hover{
     cursor: pointer;
 }
 .carrosel img:first-child{
     transform: scaleX(-1);
-    left:3%;
+    left:-4%;
 }
 .carrosel img:last-child{
-    right:3%;
-}
-.img1{
-    background-image:url('https://i.imgur.com/FivwYVZ.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-.img2{
-    background-image:url('https://i.imgur.com/C9UCmjZ.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-.img3{
-    background-image:url('https://i.imgur.com/G828iR0.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-.img4{
-    background-image:url('https://i.imgur.com/Vgy3TrU.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
+    right:-10%;
 }
 
-.cor-texto1{
-    color:#C50000;
-}
-.cor-texto2{
-    color:#D9DD10;
-}
-.cor-texto3{
-    color:#A63A17;
-}
+
 .cor-texto4{
     color:#10ACDD;
+    transition: all 1s;
 }
+.cor-texto4:hover{
+    color:#ff0925;
+}
+
+.text{
+    color: #ffffff;
+}
+
 .card {
     width:370px;
     height:70%;
     text-align:justify;
-    background:white;
+    background:#0D1D25;
     position:absolute;
     
     left:30%;
@@ -153,8 +137,35 @@ hr.active{
     opacity:1;
 }
 /*responsive*/
-@media (max-width:1024px){
+@media (max-width:1022px){
     .card{
         left:50%;
     }
+
+    .carrosel img:first-child{
+        transform: scaleX(-1);
+        left:10%;
+    }
+    .carrosel img:last-child{
+        right:-50%;
+    }
+    
 }
+
+@media (max-width:997px){
+    .card{
+        left:50%;
+    }
+
+    .carrosel img:first-child{
+        transform: scaleX(-1);
+        left:3%;
+    }
+    .carrosel img:last-child{
+        right:-63%;
+    }
+    
+}
+
+
+
