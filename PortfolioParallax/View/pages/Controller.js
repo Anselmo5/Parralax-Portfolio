@@ -1,17 +1,22 @@
-gsap.registerPlugin(ScrollTrigger);
+const carrosel = document.querySelector('.carrosel-container');
 
-const sections = gsap.utils.toArray(".panel"),
-  container = document.querySelector(".container");
+let count = 0;
+let nSlides = 4;
 
-gsap.to(sections, {
-  xPercent: -60* (sections.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".container",
-    pin: true,
-    scrub: 1,
-    snap: 1 / (sections.length - 1),
-    end: () => "+=" + container.offsetWidth,
-  },
-});
+function slideForward() {
+    if(count < nSlides - 1)
+    {
+        carrosel.children[count].classList.add('none');
+        carrosel.children[count+1].classList.remove('none');
+        count++;
+    }
+}
 
+function slideBackward(){
+    if(count > 0)
+    {
+        carrosel.children[count].classList.add('none');
+        carrosel.children[count-1].classList.remove('none');
+        count--;
+    }
+}

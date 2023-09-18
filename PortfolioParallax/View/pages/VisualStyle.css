@@ -21,13 +21,7 @@ body {
   margin: 0;
 }
 
-.container {
-  width: 200%;
-  height: 100vh;
-  display: flex;
-  flex-wrap: nowrap;
-  background: #f7f7f7;
-}
+
 
 img {
   width: 200px;
@@ -299,6 +293,12 @@ p {
   border-radius:100px;
  
 }
+
+
+
+
+
+
 
 /* Responsividade */
 
