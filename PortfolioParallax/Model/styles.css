@@ -208,7 +208,7 @@ p {
   }
 
 
-.NALINK:hover {
+.UNILINK:hover {
   color: rgba(22, 199, 199, 0.89);
   transition: all 0.5s ;
   
@@ -216,7 +216,7 @@ p {
 }
 
 
-  .NALINK{
+  .UNILINK{
     text-decoration: none;
     opacity: 0.66;
     font-size: 16px;

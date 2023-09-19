@@ -4,22 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Natureza</title>
+    <title>Linguagem</title>
     <link rel="stylesheet" href="../pages/VisualStyle.css" />
     <link rel="shortcut icon" href="../pages/img/ANSELMO.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Carrosel.css">
   
   </head>
   <body>
     <nav>
-      <div class="ajust-nav"> <img src="../img/EU4.jpeg"  /></div>
+      <div class="ajust-nav"> <img src="./img/Eu.jpeg"  /></div>
       <div class="yper">
         <a href="../index.html">HOME</a>
         <a href="../linguagem.html">VOLTAR</a>
       </div>
     </nav>
 
-    <section class="banner" id="Skil">
-  
+    <section class="carrosel-container">
+      
+      <div id="1" class="carrosel img1" >
+        <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta esquerda" class="opacity setaesquerda" onclick="slideBackward()">
+        <div class="card">
+          <h2 class="titleatv"></h2>
+          <p class="text">
+            
+          </p>
+          <a href="#" class="cor-texto4">Saiba mais</a>
+        </div>
+        <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta direita" class="setadireita" onclick="slideForward()">
+
+        </div>
+        <div id="2" class="carrosel img2 none" >
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta esquerda setaesquerda" onclick="slideBackward()">
+          <div class="card">
+              <h2 class="titleatv"></h2>
+              <p class="text">
+                 
+              </p>
+              <a href="#" class="cor-texto4">Saiba mais</a>
+          </div>
+        
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta direita" class="setadireita"  onclick="slideForward()">
+        </div>
+        <div id="3" class="carrosel img3 none" >
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta esquerda" onclick="slideBackward()">
+          <div class="card">
+              <h2 class="titleatv"></h2>
+              <p  class="text">
+               
+              </p>
+              <a href="#" class="cor-texto4">Saiba mais</a>
+          </div>
+          
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta direita setaesquerda"  onclick="slideForward()">
+        </div>
+        <div id="4" class="carrosel img4 none">
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta esquerda" class="setaesquerda" onclick="slideBackward()">
+          <div class="card">
+              <h2 class="titleatv"></h2>
+              <p class="text">
+                
+              </p>
+              <a href="#" class="cor-texto4">Saiba mais</a>
+          </div>
+          
+          <img src="./img/botao-quadrado-preto-de-seta-para-a-direita.png" alt="seta direita" class="opacity setadireita"   onclick="slideForward()">
+        </div>
     </section>
+
+
+    <script src="./Controller.js"></script>
+
+    
+
   </body>
 </html>
