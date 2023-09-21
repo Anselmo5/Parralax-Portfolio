@@ -324,6 +324,22 @@ p {
  
 }
 
+.yper{
+  overflow: hidden;
+  
+}
+
+.yper a{
+  float: left;
+  display: block;
+  text-align: center;
+
+}
+
+.yper .icon{
+  display: none;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 729px) {
@@ -374,4 +390,29 @@ p {
   }
 
 
+}
+
+@media screen and (max-width:600px) {
+  .yper a{
+    margin: 5px;
+  }
+  .yper a:not(:first-child) {display: none;}
+  .yper a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .yper.responsive {position: relative;}
+  .yper.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .yper.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }

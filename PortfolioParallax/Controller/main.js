@@ -15,3 +15,12 @@ gsap.to(sections, {
   },
 });
 
+
+function myFunction() {
+  var x = document.getElementById("myyper");
+  if (x.className === "yper") {
+    x.className += " responsive";
+  } else {
+    x.className = "yper";
+  }
+}
