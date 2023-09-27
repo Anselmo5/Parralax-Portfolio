@@ -404,11 +404,17 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .yper.responsive {position: relative;}
+  .yper.responsive {
+    position: relative;
+    display: flex;
+    padding: 10px;
+
+  }
+
   .yper.responsive .icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right:-5px;
+    top:10px;
   }
   .yper.responsive a {
     float: none;
