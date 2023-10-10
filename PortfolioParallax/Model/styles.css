@@ -423,3 +423,37 @@ p {
   }
   
 }
+
+
+
+@media screen and (max-width:356px) {
+  .yper a{
+    margin: 5px;
+  }
+  .yper a:not(:first-child) {display: none;}
+  .yper a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width:356px){
+  .yper.responsive {
+    position: relative;
+    padding: 10px;
+
+  }
+
+  .yper.responsive .icon {
+    position: absolute;
+    right:-5px;
+    top:10px;
+  }
+  .yper.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+}

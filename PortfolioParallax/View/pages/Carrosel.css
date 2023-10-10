@@ -76,8 +76,30 @@ body{
     color:#ff0925;
 }
 
+
+.cor-texto4{
+    color:#10ACDD;
+    transition: all 1s;
+}
+.cor-texto4:hover{
+    color:#ff0925;
+}
+
+
+
+.cor-texto4{
+    color:#10ACDD;
+    transition: all 1s;
+}
+.cor-texto4:hover{
+    color:#ff0925;
+}
+
+
+
 .text{
     color: #ffffff;
+    margin-top: -60px;
 }
 
 .card {

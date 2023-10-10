@@ -1,7 +1,7 @@
 const carrosel = document.querySelector('.carrosel-container');
 
 let count = 0;
-let nSlides = 4;
+let nSlides = 5;
 
 function slideForward() {
     if(count < nSlides - 1)
