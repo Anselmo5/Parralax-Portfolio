@@ -222,6 +222,7 @@ p {
     font-family: 'Lora', serif;
     color: #222222;
     transition: all 0.5s;
+    margin-top: 20px;
   }
 
   .HU img{
