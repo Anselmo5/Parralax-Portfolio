@@ -73,8 +73,8 @@ nav a {
 nav a:hover {
   
   color:#ff0623;
-  transition: transform 1s;
-  transform: translateY(-10px);
+  transition: transform 0.5s;
+  transform: translateY(-4px);
 
 }
 
@@ -303,6 +303,31 @@ p {
     padding: 5px;
     box-shadow: 0px 2px 0px #7a7676;
   }
+
+.ajust2 img {
+  width: 400px;
+  height: 350px;
+}
+
+.ajust2 p{
+  color: #222222;
+  margin-top: 30px;
+}
+
+
+.ajust2 a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  color:#131313;
+  transition: all 0.5s;
+  font-family: 'Lora', serif;
+}
+
+.ajust2 a:hover{
+  transition: all 0.5s;
+  color: #ff0623;
+}
 
 
 
