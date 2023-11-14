@@ -120,10 +120,12 @@ p {
   text-align: left;
   gap: 30px;
   background:#00111A;
+  width:100vw ;
 }
 
 .footer {
  background:#00111A ;
+ height: 115vh;
 }
 
 
