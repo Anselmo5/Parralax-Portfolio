@@ -307,8 +307,9 @@ p {
   }
 
 .ajust2 img {
-  width: 400px;
+  width: 300px;
   height: 350px;
+  padding: 10px;
 }
 
 .ajust2 p{
@@ -320,7 +321,6 @@ p {
 .ajust2 a{
   text-decoration: none;
   padding: 10px;
-  margin: 10px;
   color:#131313;
   transition: all 0.5s;
   font-family: 'Lora', serif;
